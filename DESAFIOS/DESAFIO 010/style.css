@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'fonte titulo';
+    src: url(fontes/letrat.ttf) format('truetype'); 
+}
+
+body{
+    background-color: rgb(131, 255, 197);
+    margin-bottom: 0;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3DDA83, #1E603D);
+    padding: 0px;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -22px;
+    color: white;
+    height: 213px;
+    
+}
+
+div#cabecalho{
+    text-align: center;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.582);
+}
+
+h1{
+    font-family: 'fonte titulo';
+    font-weight: normal;
+    font-size: 23px;
+    margin: auto;
+    padding-top: 37px;
+    padding-bottom: 35px;
+}
+
+a{
+    color: #1a5233;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p#pprincipal{
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+nav{
+    padding-bottom: 7px;
+    padding-top: 15px;
+}
+
+.menu{
+    text-decoration: none;
+    color: #91dab2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-left: 11px;
+    margin-right: -23px;
+}
+
+span:hover > a{
+    background-color: #35c27485;
+    border-radius: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    color: #0a4224;
+    transition-duration: .5s;
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 15px;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 3px 17px rgba(0, 0, 0, 0.336);
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main img{
+    width: 100%;
+}
+
+.letra{
+    font-family: 'fonte';
+    color: #1a5233;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.letra2{
+    font-family: 'fonte';
+    color: #1a5233;
+    background-image: linear-gradient(to left, white, #84fdbaad);
+    text-align: left;
+    margin: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 8px;
+}
+
+span#cor{
+    color: rgb(8, 116, 8);
+    font-weight: bold;
+}
+
+.foto{
+    margin: auto;
+}
+
+div#video{
+    background-color: #1a5233;
+    height: 317px;
+    margin: 0px -2px 30px -2px;
+    padding: 3px;
+    padding-bottom: 16.5%;
+    box-shadow: 1px 3px 17px rgba(0, 0, 0, 0.336);
+    position: relative;
+}
+
+div#video > iframe{
+    position: absolute;
+    top: -2%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+iframe{
+    padding-top: 26px;
+    width: 467px;
+    height: 262px;
+    margin: auto;
+}
+
+aside ul{
+    text-align: left;
+    columns: 2;
+    list-style-type: '\2714\00A0';
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#caixa{
+    background-color: #78ffb57a;
+    border-radius: 15px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 3px 17px rgba(0, 0, 0, 0.336);
+    height: 360px;
+    text-align: center;
+}
+
+h4{
+    background-color: #35c274;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    border-radius: 15px 15px 0px 0px;
+    height: 29px;
+    padding: 16px 5px 0px 15px;
+}
+
+.pcaixa{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    padding: 0px;
+    margin-top: -8px;
+    text-align: center;
+}
+
+footer{
+    background-color: #1E603D;
+    margin-top: 14px;
+    height: 34px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+p#pfooter{
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+
