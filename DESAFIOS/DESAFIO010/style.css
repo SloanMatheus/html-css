@@ -47,7 +47,7 @@ a{
 }
 
 p#pprincipal{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-left: 100px;
     margin-right: 100px;
     margin: auto;
@@ -179,7 +179,7 @@ section#caixa{
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 1px 3px 17px rgba(0, 0, 0, 0.336);
-    height: 360px;
+    height: 398px;
     text-align: center;
 }
 
